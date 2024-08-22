@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="serviceLogin_Modules.GoodLife">
+        <methods>
+          <include name="GoodLifePage"/>
+          <include name="Earning_and_RedemptionHistory"/>
+          <include name="GoodLife_WinnerOfMonth"/>
+          <include name="SilverEnrollmentForm"/>
+          <include name="YourGoodLife_Benefits"/>
+          <include name="login"/>
+          <include name="getlaunchURL"/>
+          <include name="ProMembership"/>
+          <include name="NomineeForm"/>
+          <include name="PlatinumMembership"/>
+          <include name="GoldEnrollmentForm"/>
+          <include name="ViewNominee_goodLifePage"/>
+          <include name="SilverMembership"/>
+          <include name="GoodLife_banner"/>
+          <include name="GoldMembership"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- serviceLogin_Modules.GoodLife -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

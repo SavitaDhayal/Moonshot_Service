@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser_name" value="chrome"/>
+  <listeners>
+    <listener class-name="com.utility.listner"/>
+  </listeners>
+  <test thread-count="5" name="ServiceLogin(failed)">
+    <classes>
+      <class name="serviceLogin_Modules.GoodLife">
+        <methods>
+          <include name="Earning_and_RedemptionHistory"/>
+          <include name="GoodLife_WinnerOfMonth"/>
+          <include name="SilverEnrollmentForm"/>
+          <include name="login"/>
+          <include name="getlaunchURL"/>
+          <include name="ProMembership"/>
+          <include name="NomineeForm"/>
+          <include name="PlatinumMembership"/>
+          <include name="GoldEnrollmentForm"/>
+          <include name="ViewNominee_goodLifePage"/>
+          <include name="SilverMembership"/>
+          <include name="GoldMembership"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- serviceLogin_Modules.GoodLife -->
+    </classes>
+  </test> <!-- ServiceLogin(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+[INFO ] 2023-11-03 16:23:02.406 [main] MoonShot_Web - Successfully Click loginTab
+[INFO ] 2023-11-03 16:23:03.304 [main] MoonShot_Web - Successfully send Value MobileNo
+[INFO ] 2023-11-03 16:23:03.520 [main] MoonShot_Web - Successfully send Value OTP
+[INFO ] 2023-11-03 16:23:03.780 [main] MoonShot_Web - Successfully Click Button
+[ERROR] 2023-11-03 16:23:12.712 [main] MoonShot_Web - ==Unable to Click Join Now
+[ERROR] 2023-11-03 16:23:43.103 [main] MoonShot_Web - ==Unable to Click View Plan
+[INFO ] 2023-11-03 16:23:43.117 [main] MoonShot_Web - Page is loaded My Vehicles
+[ERROR] 2023-11-03 17:05:30.731 [main] MoonShot_Web - ==Unable to Click View Plan
